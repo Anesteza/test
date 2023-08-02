@@ -1,0 +1,330 @@
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+html,body { font-size: 16px;
+line-height: 1.5}
+
+img{display: inline-block;}
+a {transition: 0.5s case-out;}
+/* +++++++++++++++++++++++++++++
+
+GRID
+
+++++++++++++++++++++++++++++++++*/
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    
+
+}
+.row:after {clear:both;
+content: "";
+display: table;}
+.c-4 {
+    width: 360px;
+    margin-left: 30px;
+    float: left
+}
+.c-4:last-child {margin-right: 0px;}
+
+/* +++++++++++++++++++++++++++++
+
+HEADER
+
+++++++++++++++++++++++++++++++++*/
+.header{
+    background: #7B68EE;
+    background-image: url("../img/bg/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    
+    color:#000;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+
+}
+.header1{
+    background: #7B68EE;
+    background-image: url("../img/bg/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    
+    color:#000;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+
+}
+
+.header2{
+    background: #7B68EE;
+    background-image: url("../img/bg/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+    color:#000;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+
+}
+
+.h_title{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: -55px;
+    
+}
+
+.h_slogan {
+    font-size: 30px;
+    line-height: 15px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.h_desc {
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: cadetblue;
+    
+}
+.h_desc2 {
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: cadetblue;
+    
+}
+
+.h_arrow{
+    font-size: 40px;
+    width: 50px;
+    margin-left: -30px;
+    position: absolute;
+    bottom: 5px;
+    left:50%;
+}
+
+/* +++++++++++++++++++++++++++++
+
+INFO
+
+++++++++++++++++++++++++++++++++*/
+.pf {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.pf-item {
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 46px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pf-item_img {
+    margin-bottom: 20px;
+}
+.pf-item_title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-align: center;
+} 
+.pf-item_txt {
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.pf-item_title a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #FFF;
+}
+.pf-item_title a:hover {
+    color:aqua;
+}
+
+.pf-item_txt o {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* +++++++++++++++++++++++++++++
+
+Single
+
+++++++++++++++++++++++++++++++++*/
+.pf_sp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.pf_sp img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 90%;
+    height: auto;
+    
+}
+
+.button_back {
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color:#000;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    display: inline-block;
+    border-width: 3px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button_back:hover {
+    color: #FFF;
+    background-color: #000; 
+}
+
+
+/* +++++++++++++++++++++++++++++
+
+FOOTER
+
+++++++++++++++++++++++++++++++++*/
+
+.footer {
+    background-color: antiquewhite;
+    color:#000;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+.footer p{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+p.ft_name{
+    text-align: center;
+    font-size: 26px;
+    line-height: normal;
+    margin-bottom:10px;
+}
+p.ft_name_2 {
+    text-align: center;
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom:10px;
+}
+p.ft_soc {
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+     line-height: normal;
+    margin-bottom:10px;
+}
+p.ft_soc_icon {
+     text-align: center;
+    font-size: 24px;
+   
+     line-height: normal;
+    margin-bottom:10px;
+    color: #000;
+}
+p.ft_soc_icon a {
+    margin-left: 20px;
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 28 px;
+}
+p.ft_soc_icon a:hover {
+    color:#FFFF00;
+    line-height: normal;
+    text-align: center;}
+
+
+.buton {
+    margin-left: 90px;
+    
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color:#000;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    display: inline-block;
+    border-width: 3px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.buton1 {
+    margin-left: 0px;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color:#000;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    display: inline-block;
+    border-width: 3px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.buton:hover {
+    color: #000;
+    background-color: #FFFF00; 
+}
+.buton1:hover {
+    color: #000;
+    background-color: #FFFF00; 
+}
+p.ft_cont {
+    text-align: center;
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom:10px;
+}
