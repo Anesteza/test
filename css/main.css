@@ -99,8 +99,21 @@ HEADER
     margin-top: -55px;
     
 }
+.h_title1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: -55px;}
+
 
 .h_slogan {
+    font-size: 28px;
+    line-height: 15px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+.h_slogan1 {
     font-size: 30px;
     line-height: 15px;
     margin-bottom: 30px;
@@ -111,6 +124,14 @@ HEADER
 .h_desc {
     font-size: 24px;
     line-height: 35px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: cadetblue;
+    
+}
+.h_desc1 {
+    font-size: 24px;
+    line-height: 30px;
     margin-bottom: 30px;
     font-family: 'PT Sans', sans-serif;
     color: cadetblue;
@@ -205,7 +226,7 @@ Single
     
 }
 
-.button_back {
+/*.button_back {
     font-family: 'PT Sans', sans-serif;
     text-decoration: none;
     color:#000;
@@ -225,7 +246,7 @@ Single
 .button_back:hover {
     color: #FFF;
     background-color: #000; 
-}
+}*/
 
 
 /* +++++++++++++++++++++++++++++
@@ -285,8 +306,7 @@ p.ft_soc_icon a:hover {
 
 
 .buton {
-    margin-left: 90px;
-    
+    margin-left: avto;
     font-family: 'PT Sans', sans-serif;
     text-decoration: none;
     color:#000;
@@ -300,8 +320,8 @@ p.ft_soc_icon a:hover {
     border-radius: 45px;
     padding-bottom: 8px;
     padding-top: 8px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .buton1 {
     margin-left: 0px;
@@ -358,17 +378,35 @@ ADAPTATION
         padding-left: 10px;
         padding-right: 10px; 
     }
+    .header1{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+        margin-bottom: 10px;}
     .h_title {
         font-size: 28px;
         line-height: 36px;
         margin-bottom: 14px;
     }
+    .h_title1 {
+        font-size: 22px;
+        line-height: 36px;
+        margin-bottom: 14px;
+    }
     .h_slogan {
         font-size: 20px;
-        line-height: 30px;
+       line-height: 30px;
     }
+    .h_slogan1 {
+        font-size: 18px;
+       line-height: 10px;
+    }
+    .h_desc1 {font-size: 16px;
+    line-height: 18px;}
+    .h_desc2 {font-size: 16px;
+    line-height: 16px;}
     .pf {
-        padding-bottom: 30px;
+        padding-bottom: 15px;
         padding-top: 25px;
     }
     .title {
@@ -402,6 +440,8 @@ ADAPTATION
     .header1{
         padding-left: 10px;
         padding-right: 10px;
+        margin: 0;
+        margin-bottom: 10px;
 }
     .header2{
         padding-left: 10px;
@@ -420,12 +460,19 @@ ADAPTATION
         line-height: 20px;
     }
     .h_desc {font-size: 16px;
-    line-height: 20px;}
+    line-height: 20px;
+    }
+    .h_desc1 {font-size: 16px;
+    line-height: 16px;}
+    .h_desc2 {font-size: 16px;
+    line-height: 16px;}
+    
     .pf {
         padding-bottom: 30px;
         padding-top: 25px;
         
     }
+    
     .title {
         font-size: 20 px;
         }
